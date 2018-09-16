@@ -51,3 +51,37 @@ code {
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
 }
+
+/* Menu */
+.menu1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.btn1 {
+  font-size: 250%;
+  background-color: white;
+  padding: 0;
+  border: none;
+  margin: 1.5em 1.5em 0 0;
+}
+h4.ellipsis {
+  font-size: 1em;
+  color: white;
+  background-color: darkgray;
+  background-image: radial-gradient(circle, rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,1));
+  padding: 0 .2em 0 .2em;
+  border: .1em;
+  border-color: red;
+  border-radius: 1em;
+  margin: 0;
+  transition: color .1s, background-color .1s, background-image .1s;
+}
+h4.ellipsis:after {
+  content: '\22EF';
+}
+h4.ellipsis:hover {
+  color: lightblue;
+  background-color: darkblue;
+  background-image: none;
+}
