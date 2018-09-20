@@ -76,13 +76,12 @@ h4.ellipsis {
   border: none;
   border-radius: 50%;
   margin: 0;
-  transition: color .1s, background-color .1s, background-image .1s;
+  transition: color .1s, background-color .1s;
 }
 h4.ellipsis:after {
   content: '\22EF';
 }
-h4.ellipsis:hover {
+.menu1:hover h4.ellipsis {
   color: lightblue;
   background-color: darkblue;
-  background-image: none;
 }
