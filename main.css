@@ -102,7 +102,7 @@ h4.ellipsis:after {
   display: block;
   color: white;
   background-color: darkgray;
-  background-image: radial-gradient(rgba(255,255,255,0),rgba(255,255,255,.1)$
+  background-image: radial-gradient(rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,1));
   text-decoration: none;
   padding: 1em 0.5em 1em .5em;
   border: none;
