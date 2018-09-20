@@ -21,7 +21,7 @@ h1, h2, h3 {
 h1 {
   font-size: 2.25em;
   color: white;
-  line-height: 1.25em;
+  line-height: 1.15;
   padding: .1em;
   margin: 1em 0 1em 0;
   background-color: darkgray;
@@ -59,6 +59,12 @@ code {
   top: 0;
   right: 0;
 }
+h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 1em 0 1em 0;
+}
 .btn1 {
   font-size: 250%;
   background-color: white;
@@ -68,7 +74,6 @@ code {
   margin: 1.5em 1.5em 0 0;
 }
 h4.ellipsis {
-  font-size: 1em;
   color: white;
   background-color: darkgray;
   background-image: radial-gradient(circle, rgba(255,255,255,0), rgba(255,255,255,.1), rgba(255,255,255,1));
@@ -113,4 +118,3 @@ h4.ellipsis:after {
   color: lightblue;
   background-color: darkblue;
 }
-
